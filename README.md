@@ -20,10 +20,10 @@ This code accompanies our paper[^1] and is broken into folders:
   metalearners that use standard regression methods to perform inference, along
   with our machinery for feature engineering
 
-- `generated_examples/` reproduces experiments described in the paper on
-  synthetic data
+- `generated_examples/` reproduces numerical experiments described in the paper
+  on synthetic data
 
-The environment runs with [conda](https://conda.io) —
+The code can be run in a [conda](https://conda.io) environment —
 
 ```sh
 conda env create -f environment.yml

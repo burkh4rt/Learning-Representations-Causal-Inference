@@ -8,21 +8,21 @@ level), and engineer features to improve causal modelling.
   treatment, outcome) and provides functionality to automatically partition the
   datapoints into training, validation, and testing sets. Here,
 
-  - features (X) are real-valued vectors
-  - treatment (W) is boolean-valued, corresponding to either control or
-    challenger (experimental)
-  - outcome (Y) is a scalar
+  - features $X \in\mathbb{R}^d$ are real-valued vectors
+  - treatment assignment $W\in\{0,1\}$ is boolean-valued, corresponding to
+    either control or challenger (experimental)
+  - the outcome $Y \in \mathbb{R}$ is scalar
 
 - `regressor_learners.py` are basically just supervised training methods to
-  predict Y|X from (X,Y) tuples
+  predict $Y|X$ from $(X,Y)$ tuples
 
 - `causal_meta_learners.py` describes ways to leverage `regressor_learners` to
   infer treatment effect for causal datasets
 
 - `linear_evolutationary_feature_engineer.py` contains our experimental module
-  that automatically infers a mapping Φ that can be applied to the features X
-  so that causal models trained on data (Φ(X),W,Y) will perform better than
-  causal models trained on the original data (X,W,Y)
+  that automatically infers a mapping $Φ$ that can be applied to the features X
+  so that causal models trained on data $(Φ(X),W,Y)$ will perform better than
+  causal models trained on the original data $(X,W,Y)$
 
 - `aggregate_diagnostic_plots.py` generates plots of average predicted and
   realized treatment effect vs. predicted treatment effect quantile
