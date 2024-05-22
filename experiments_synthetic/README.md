@@ -13,5 +13,5 @@ seeding and parallelism.
 
 [^1]:
     Nie X. & Wager S.,
-    [Quasi-oracle estimation of heterogeneous treatment effects](https://doi.org/10.1093/biomet/asaa076),
+    [_Quasi-oracle estimation of heterogeneous treatment effects_](https://doi.org/10.1093/biomet/asaa076),
     Biometrika 108 (2021)

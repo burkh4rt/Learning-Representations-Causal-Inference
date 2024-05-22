@@ -34,9 +34,9 @@ python3 experiments_synthetic/nie_wager.py
 ```
 
 [^1]:
-    M. Burkhart and G. Ruiz, _Neuroevolutionary representations for learning
-    heterogeneous treatment effects,_ Journal of Computational Science 71
-    (2023)
+    M. Burkhart and G. Ruiz,
+    [_Neuroevolutionary representations for learning heterogeneous treatment effects_](https://doi.org/10.1016/j.jocs.2023.102054),
+    Journal of Computational Science 71 (2023)
 
 <!---
 
