@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/804098847.svg)](https://zenodo.org/doi/10.5281/zenodo.11243921)
+
 ### Neuroevolutionary representations for learning heterogeneous treatment effects
 
 > Within the field of causal inference, we consider the problem of estimating
